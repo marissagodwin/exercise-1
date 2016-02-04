@@ -16,26 +16,6 @@ html {
   text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) { /*large*/
-    
-    html {
-        font-size: 110%;
-    }
-}
-
-@media only screen and (min-width: 90em) { /*xlarge*/
-    
-    html {
-        font-size: 120%;
-    }
-}
-
-@media only screen and (min-width: 120em) { /*xxlarge*/
-    
-    html {
-        font-size: 130%;
-    }
-}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -45,11 +25,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-}
-
-
-.formcolor {
-    background-color: rgba(200, 200, 200, 0.5);
 }
 
 .form {
@@ -95,56 +70,6 @@ body {
     padding-bottom: 1rem;
 }
 
-.intro {
-    background-color: #e2e2e2;
-    text-align: center;
-}
-
-.signup a,
-.signup a:link,
-.signup a:visited {
-  background-color: white;
-  text-decoration: none;
-  color: #0074D9;  
-  padding: 1em;
-
-}
-
-.signup a:hover,
-.signup a:focus,
-.signup a:active,
-.signup .nav-current,
-.signup .nav-current:link,
-.signup .nav-current:visited {
-  color: white;
-  text-decoration: none;
-  background-color: #0074D9; 
-  padding: 1em;
-}
- 
-.signup2 a,
-.signup2 a:link,
-.signup2 a:visited {
-  background-color: white;
-  text-decoration: none;
-  border-style: solid;
-  border-radius: 10px;
-  color: grey;  
-  padding: .5em;
-
-}
-
-.signup2 a:hover,
-.signup2 a:focus,
-.signup2 a:active,
-.signup2 .nav-current,
-.signup2 .nav-current:link,
-.signup2 .nav-current:visited {
-  color: white;
-  text-decoration: none;
-  background-color: grey; 
-  border-color: grey;
-}
 
 
    
